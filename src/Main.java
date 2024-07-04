@@ -1,4 +1,5 @@
 import prova1.VerificarFinalString;
+import prova2.view.Menu;
 
 public class Main {
     public static void main(String[] args) {
@@ -9,8 +10,9 @@ public class Main {
         System.out.println(verificarFinalString.verifica("dontuseia", "iamworld"));
         System.out.println(verificarFinalString.verifica("aa", "a"));
 
+        Menu.show();
 
-        
+        System.exit(0);
 
     }
 }
